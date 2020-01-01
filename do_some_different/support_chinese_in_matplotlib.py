@@ -21,8 +21,9 @@ plt.xlabel('横轴', fontproperties=fonts)
 plt.ylabel('纵轴', fontproperties=fonts)
 plt.xticks(fontproperties=fonts)
 
+# 负数显示正常
 data_dic = {
-    'origin': [1, 2, 3, 4],
+    'origin': [1, 2, -3, 4],
     'power 2': [1, 4, 9, 16]
 }
 
