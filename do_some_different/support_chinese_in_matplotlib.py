@@ -15,7 +15,7 @@ import matplotlib.pyplot as plt
 
 # 支持中文
 import matplotlib.font_manager as fm
-fonts = fm.FontProperties(fname=r'simsun.ttc')  # 设置字体，纯属测试
+fonts = fm.FontProperties(fname=r'simsun.ttc')  # 设置中文字体，纯属测试
 plt.title('纯属测试中文，从网络下载使用了simsun.tcc中文字体', fontproperties=fonts)
 plt.xlabel('横轴', fontproperties=fonts)
 plt.ylabel('纵轴', fontproperties=fonts)
