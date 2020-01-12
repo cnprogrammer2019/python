@@ -1,0 +1,98 @@
+﻿echo=
+echo=============================basic=============================
+pip3 install -i %1 pip
+pip3 install -i %1 setuptools
+echo=
+echo=============================system=============================
+pip3 install -i %1 psutil 				
+pip3 install -i %1 pywin32
+echo=
+echo=============================data ananlyse=============================
+pip3 install -i %1 numpy				
+pip3 install -i %1 pandas				
+pip3 install -i %1 scipy				
+pip3 install -i %1 sympy				
+echo=
+echo=============================ai=============================
+pip3 install -i %1 scikit-learn			
+echo=
+echo=============================visual data=============================
+pip3 install -i %1 matplotlib			
+pip3 install -i %1 seaborn				
+pip3 install -i %1 pygal
+pip3 install -i %1 pygal_maps_world
+echo=
+echo=============================text ananlyse=============================
+pip3 install -i %1 chardet				
+pip3 install -i %1 bs4					
+pip3 install -i %1 lxml					
+echo=
+echo=============================excel data=============================
+pip3 install -i %1 openpyxl 			
+echo=
+echo=============================word 2007 template=============================
+pip3 install -i %1 docxtpl
+echo=
+echo=============================edit image=============================
+pip3 install -i %1 pillow				
+pip3 install -i %1 exifread				
+echo=
+echo=============================bar/qrcode (pillow needed)=============================
+pip3 install -i %1 qrcode				
+pip3 install -i %1 zxing				
+echo=
+echo=============================network=============================
+pip3 install -i %1 requests				
+pip3 install -i %1 fake_useragent		
+pip3 install -i %1 scrapy				
+pip3 install -i %1 selenium				
+pip3 install -i %1 paramiko
+pip3 install -i %1 python-nmap #network security hacker tool, not python3-nmap
+pip3 install -i %1 scapy #network security hacker tool
+echo=
+echo=============================quantity ananlyse=============================
+pip3 install -i %1 tushare
+echo=
+echo=============================webserver framework=============================
+pip3 install -i %1 django
+echo=
+echo=============================edit=============================
+pip3 install -i %1 jupyterlab
+echo=
+echo=============================solar - lunar calendar=============================
+pip3 install -i %1 sxtwl
+echo=
+echo=============================database=============================
+pip3 install -i %1 pymysql
+pip3 install -i %1 sqlalchemy
+echo=
+echo=============================data format trans=============================
+pip3 install -i %1 tablib
+echo=
+echo=============================pdf =============================
+pip3 install -i %1 PyPDF #页面合并、水印等等功能，获取文字（对中文支持不友好）
+pip3 install -i %1 pdfminer.six #20191010后仅支持python3，以前版本为pdfminer six
+pip3 install -i %1 pdfplumber #自动安装pdfminer.six，注意兼容性的问题（提示pdfminer.six<=20181110）
+echo=
+echo=============================make executive file=============================
+pip3 install -i %1 pyinstaller
+echo=
+echo=============================check pep format=============================
+pip3 install -i %1 pep8
+pip3 install -i %1 autopep8
+echo=
+echo=============================make doc format=============================
+pip3 install -i %1 sphinx
+echo=
+echo=============================unit test =============================
+pip3 install -i %1 pytest
+echo=
+echo=============================easy schedule =============================
+pip3 install -i %1 schdule
+
+
+
+
+
+
+
