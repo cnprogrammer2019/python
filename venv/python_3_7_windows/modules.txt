@@ -1,0 +1,72 @@
+echo=
+echo=============================basic=============================
+pip3 install -i %1 pip
+pip3 install -i %1 setuptools
+echo=
+echo=============================system=============================
+pip3 install -i %1 psutil 				
+pip3 install -i %1 pywin32
+echo=
+echo=============================data ananlyse=============================
+pip3 install -i %1 numpy				
+pip3 install -i %1 pandas				
+pip3 install -i %1 scipy				
+pip3 install -i %1 sympy				
+echo=
+echo=============================ai=============================
+pip3 install -i %1 scikit-learn			
+echo=
+echo=============================visual data=============================
+pip3 install -i %1 matplotlib			
+pip3 install -i %1 seaborn				
+pip3 install -i %1 pygal
+pip3 install -i %1 pygal_maps_world
+echo=
+echo=============================text ananlyse=============================
+pip3 install -i %1 chardet				
+pip3 install -i %1 bs4					
+pip3 install -i %1 lxml					
+echo=
+echo=============================excel data=============================
+pip3 install -i %1 openpyxl 			
+echo=
+echo=============================word 2007 template=============================
+pip3 install -i %1 docxtpl
+echo=
+echo=============================edit image=============================
+pip3 install -i %1 pillow				
+pip3 install -i %1 exifread				
+echo=
+echo=============================bar/qrcode (pillow needed)=============================
+pip3 install -i %1 qrcode				
+pip3 install -i %1 zxing				
+echo=
+echo=============================database connect=============================
+pip3 install -i %1 pymysql
+echo=
+echo=============================network=============================
+pip3 install -i %1 requests				
+pip3 install -i %1 fake_useragent		
+pip3 install -i %1 scrapy				
+pip3 install -i %1 selenium				
+pip3 install -i %1 paramiko
+echo=
+echo=============================quantity ananlyse=============================
+pip3 install -i %1 tushare
+echo=
+echo=============================webserver framework=============================
+pip3 install -i %1 django
+echo=
+echo=============================edit=============================
+pip3 install -i %1 jupyterlab
+echo=
+echo=============================solar - lunar calendar=============================
+pip3 install -i %1 sxtwl
+echo=
+echo=============================database=============================
+pip3 install -i %1 pymysql
+pip3 install -i %1 sqlalchemy
+echo=
+echo=============================package py to exe|bin=============================
+pip3 install -i %1 pyinstaller
+

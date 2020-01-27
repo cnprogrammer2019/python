@@ -17,9 +17,9 @@ source ${1}${activate_name}
 #pip3 install -i ${2} pip==19.1.1
 #pip3 install -i ${2} setuptools==41.0.1
 
-pip3 install pip --upgrade -i ${2}
+python3 -m pip install pip --upgrade -i ${2}
 modstring=${3}
-pip3 install ${modstring} -i ${mserver}
+python3 -m pip install ${modstring} -i ${mserver}
 
 deactivate
 echo

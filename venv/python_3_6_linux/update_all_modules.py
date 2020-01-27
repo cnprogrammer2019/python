@@ -51,7 +51,7 @@ if __name__ == "__main__":
     try:
         pip_cmd = sys.argv[1]
     except:
-        pip_cmd = "pip"
+        pip_cmd = "python3 -m pip"
     try:
         pip_mirror_server = sys.argv[2]
     except:
